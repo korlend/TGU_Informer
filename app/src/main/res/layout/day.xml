@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/day_info"
+        layout="@layout/day_info"
+        />
+
+    <include
+        android:id="@+id/first_pair"
+        layout="@layout/day_pair_fill"
+        />
+
+    <include
+        android:id="@+id/second_pair"
+        layout="@layout/day_pair_fill"
+        />
+
+    <include
+        android:id="@+id/third_pair"
+        layout="@layout/day_pair_fill"
+        />
+
+    <include
+        android:id="@+id/fourth_pair"
+        layout="@layout/day_pair_fill"
+        />
+
+    <include
+        android:id="@+id/fifth_pair"
+        layout="@layout/day_pair_fill"
+        />
+
+    <include
+        android:id="@+id/sixth_pair"
+        layout="@layout/day_pair_fill"
+        />
+
+</LinearLayout>

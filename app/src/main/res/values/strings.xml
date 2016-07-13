@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">TGU Informer</string>
+    <string name="action_settings">Settings</string>
+    <string name="appbar_scrolling_view_behavior">Scroll</string>
+
+    <!-- время начала и окончания каждой из шести пар -->
+    <string name="first_pair_start">8:30</string>
+    <string name="first_pair_end">10:00</string>
+    <string name="second_pair_start">10:15</string>
+    <string name="second_pair_end">11:45</string>
+    <string name="third_pair_start">12:45</string>
+    <string name="third_pair_end">14:15</string>
+    <string name="fourth_pair_start">14:30</string>
+    <string name="fourth_pair_end">16:00</string>
+    <string name="fifth_pair_start">16:30</string>
+    <string name="fifth_pair_end">18:00</string>
+    <string name="sixth_pair_start">18:15</string>
+    <string name="sixth_pair_end">19:45</string>
+
+    <!-- ключи для хранения информации о занятиях -->
+    <string name="map_name_lesson_discipline">discipline</string>
+    <string name="map_name_lesson_lecturer">lecturer</string>
+    <string name="map_name_lesson_auditory">auditory</string>
+    <string name="map_name_lesson_kind_of_work">kindofwork</string>
+    <string name="map_name_lesson_pair_number">pair_number</string>
+
+    <!--
+    json параметры для разбора значений ответа сервера
+    напротив каждого параметра указан тип передаваемого значения
+     -->
+    <string name="parse_server_response_discipline">disciplineName</string>             <!-- String -->
+    <string name="parse_server_response_lecturer">lecturerFIO</string>                  <!-- String -->
+    <string name="parse_server_response_auditory">auditoriumAbbr</string>               <!-- String -->
+    <string name="parse_server_response_kind_of_work">kindOfWorkName</string>           <!-- String -->
+    <string name="parse_server_response_pair_number">numberOfPair</string>              <!-- String -->
+    <string name="parse_server_response_id">oid</string>                                <!-- Integer -->
+    <string name="parse_server_response_start_time">startOn</string>                    <!-- String -->
+    <string name="parse_server_response_end_time">endOn</string>                        <!-- String -->
+    <string name="parse_server_response_modified_time">modifiedTime</string>            <!-- String -->
+
+    <!-- имена для хранения пользовательских настроек -->
+    <string name="response_pref_name">last_response</string>
+    <string name="preferences_name">TGU_Informer_Prefs</string>
+
+    <!-- повсеместно используемый формат даты в приложении -->
+    <string name="date_format_to_server_request">yyyy-MM-dd</string>
+
+    <!--
+    url адреса для запросов к серверу
+    перед каждым url описываются передаваемые значения
+    -->
+    <!-- %1$s : группа, %2$s : дата запрашиваемого расписания -->
+    <string name="url_server_data_get_by_day">http://10.0.2.2:8090/data/get/mysql/schedule/%1$s/%2$s</string>
+    <!-- %1$s : группа, %2$s : дата, с которой происходит выборка, %3$s : дата, по которую происходит выборка -->
+    <string name="url_server_data_get_by_date_range">http://10.0.2.2:8090/data/get/mysql/schedule/%1$s/%2$s/%3$s</string>
+</resources>
