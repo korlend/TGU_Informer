@@ -43,4 +43,9 @@
         layout="@layout/day_pair_fill"
         />
 
+    <include
+        android:id="@+id/seventh_pair"
+        layout="@layout/day_pair_fill"
+        />
+
 </LinearLayout>

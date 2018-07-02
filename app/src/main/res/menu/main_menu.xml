@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.toolbar.MainActivity" >
+    <item
+        android:icon="@android:drawable/stat_notify_sync"
+        android:title="@string/menu_title_sync"
+        android:id="@+id/menu_sync"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:title="@string/menu_title_lecturer_mode"
+        android:id="@+id/menu_lecturer_mode"
+        app:showAsAction="never"
+        />
+    <item
+        android:title="@string/menu_title_student_mode"
+        android:id="@+id/menu_student_mode"
+        app:showAsAction="never"
+        />
+    <item
+        android:title="@string/menu_title_preferences"
+        android:id="@+id/menu_preferences"
+        app:showAsAction="never"
+        />
+
+
+
+
+</menu>
